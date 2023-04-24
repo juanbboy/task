@@ -65,6 +65,7 @@ ruta.post('/taskpend', async (req, res, next) => {
     title: req.body.title,
     description: req.body.description,
     completed: req.body.completed,
+    prioridad: req.body.prioridad
   })
 
   taskpend.create(ingreso, (error, data) => {

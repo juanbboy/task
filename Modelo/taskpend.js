@@ -12,6 +12,9 @@ let taskpend = new Schema(
         completed: {
             type: Boolean,
         },
+        prioridad: {
+            type: String,
+        },
         date: {
             type: Date,
             default: Date.now
