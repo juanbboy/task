@@ -11,7 +11,6 @@ let taskpend = new Schema(
         },
         completed: {
             type: Boolean,
-            default: false
         },
         prioridad: {
             type: String,
